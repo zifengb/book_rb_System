@@ -1,8 +1,11 @@
 package cn.gdut.domain;
 
 import java.util.Date;
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.Map;
+=======
+>>>>>>> refs/remotes/origin/master
 
 /*
 *
@@ -12,12 +15,17 @@ public class Lease
 {
 	private Integer uuid;  //租借编码
 	private Date Lease_time; //交易时间
+<<<<<<< HEAD
 	private int status;  //状态
+=======
+	private String status;  //状态
+>>>>>>> refs/remotes/origin/master
 	private int days;      //出借时长
 	
 	private Integer lender; //出借方编号
 	private Integer borrower; //借入方编号
 	
+<<<<<<< HEAD
 	public static final int LEASE_STATUS_OF_UNCOMMIT = 0;
 	public static final int LEASE_STATUS_OF_LENDING = 1;
 	public static final int LEASE_STATUS_OF_COMPLETE = 2;
@@ -32,6 +40,8 @@ public class Lease
 		statusMap.put(LEASE_STATUS_OF_COMPLETE, LEASE_STATUS_OF_COMPLETE_VIEW);
 	}
 	
+=======
+>>>>>>> refs/remotes/origin/master
 	public Integer getUuid()
 	{
 		return uuid;
@@ -48,11 +58,19 @@ public class Lease
 	{
 		Lease_time = lease_time;
 	}
+<<<<<<< HEAD
 	public int getStatus()
 	{
 		return status;
 	}
 	public void setStatus(int status)
+=======
+	public String getStatus()
+	{
+		return status;
+	}
+	public void setStatus(String status)
+>>>>>>> refs/remotes/origin/master
 	{
 		this.status = status;
 	}

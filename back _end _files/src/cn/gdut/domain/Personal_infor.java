@@ -1,5 +1,6 @@
 package cn.gdut.domain;
 
+<<<<<<< HEAD
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,11 +14,19 @@ public class Personal_infor implements Serializable
 	 * 
 	 */
 	private static final long serialVersionUID = 3020931707876908247L;
+=======
+/*
+ * 个人信息
+ */
+public class Personal_infor
+{
+>>>>>>> refs/remotes/origin/master
 	private Integer uuid; //用户编号
 	private String password;//密码
 	private String phoneNum;//联系方式
 	private int status;//状态
 	private int bad_record;//不良记录
+<<<<<<< HEAD
 	private String photo;//头像
 	private int gender;//性别
 	
@@ -48,6 +57,8 @@ public class Personal_infor implements Serializable
 	}
 	
 	
+=======
+>>>>>>> refs/remotes/origin/master
 	public Integer getUuid()
 	{
 		return uuid;
@@ -88,6 +99,7 @@ public class Personal_infor implements Serializable
 	{
 		this.bad_record = bad_record;
 	}
+<<<<<<< HEAD
 	public String getPhoto()
 	{
 		return photo;
@@ -104,5 +116,7 @@ public class Personal_infor implements Serializable
 	{
 		this.gender = gender;
 	}
+=======
+>>>>>>> refs/remotes/origin/master
 	
 }
